@@ -68,10 +68,10 @@ Challenge your friends in a 2-player combat game where you play as real Zhinobi.
 
 [**>> PLAY NOW**](https://drafanasa.github.io/game-development/TheClashOfZhinobi)
 
-### 13. **Cute Run (NO LONGER AVAILABLE)**
+### 13. **Cute Run**
 A colorful endless runner game. Avoid obstacles and collect coins as you help the blue alien run as far as possible.
 
-[**>> PLAY NOW**](https://drafanasa.github.io/game-development/)
+[**>> PLAY NOW**](https://drafanasa.github.io/game-development/CuteRun)
 
 ### 14. **Dual Swess**
 Enjoy two exciting game modes with sweet graphics and a fun, challenging design. Perfect for girls and fun for everyone!
