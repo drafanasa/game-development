@@ -1,0 +1,55 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 01 Jul 2025 11:19:52 at https://codm.zing.vn/battlepass7 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://codm.zing.vn/battlepass7 -O1 "E:\MARKETING\Call of Duty Mobile VN\Battle Pass Landing Page SS7" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:22:14	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://codm.zing.vn/battlepass7)
+11:29:39	Warning: 	file not stored in cache due to bogus state (incomplete type with GONE (200), size 0): script.crazyegg.com/pages/scripts/0012/5588.js
+11:35:08	Error: 	"Not Found" (404) at link img.zing.vn/products/codm/skin-2019/pc/images/bg-popup2.png (from img.zing.vn/products/codm/skin-2019/pc/css-full/style.css)
+11:35:08	Error: 	"Not Found" (404) at link img.zing.vn/products/codm/skin-2019/pc/images/close.png (from img.zing.vn/products/codm/skin-2019/pc/css-full/style.css)
+11:35:08	Error: 	"Not Found" (404) at link img.zing.vn/products/codm/skin-2019/pc/images/next.png (from img.zing.vn/products/codm/skin-2019/pc/css-full/style.css)
+11:35:08	Error: 	"Not Found" (404) at link img.zing.vn/products/codm/skin-2019/pc/images/next-hov.png (from img.zing.vn/products/codm/skin-2019/pc/css-full/style.css)
+11:35:08	Error: 	"Not Found" (404) at link img.zing.vn/products/codm/skin-2019/pc/images/back.png (from img.zing.vn/products/codm/skin-2019/pc/css-full/style.css)
+11:35:08	Error: 	"Not Found" (404) at link img.zing.vn/products/codm/skin-2019/pc/images/back-hov.png (from img.zing.vn/products/codm/skin-2019/pc/css-full/style.css)
+11:35:08	Error: 	"Not Found" (404) at link img.zing.vn/products/codm/skin-2019/pc/images/article/anchorlink.gif (from img.zing.vn/products/codm/skin-2019/pc/css-full/style.css)
+11:35:08	Error: 	"Not Found" (404) at link img.zing.vn/products/codm/skin-2019/pc/images/article/icon.gif (from img.zing.vn/products/codm/skin-2019/pc/css-full/style.css)
+11:35:08	Error: 	"Not Found" (404) at link img.zing.vn/products/codm/skin-2019/pc/images/article/icon_disc.gif (from img.zing.vn/products/codm/skin-2019/pc/css-full/style.css)
+11:35:09	Error: 	"Not Found" (404) at link img.zing.vn/products/codm/skin-2019/pc/images/article/icon_dash.gif (from img.zing.vn/products/codm/skin-2019/pc/css-full/style.css)
+11:35:09	Error: 	"Not Found" (404) at link img.zing.vn/products/codm/skin-2019/pc/images/article/icon_h5.png (from img.zing.vn/products/codm/skin-2019/pc/css-full/style.css)
+11:36:37	Error: 	Exit requested by shell or user
+11:36:39	Warning: 	Retry after error -4 (Incorrect length (377049 Bytes, 6726259 expected)) at link img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S5_32-1.jpg (from codm.zing.vn/tin-tuc/cach-choi.1.html)
+11:36:39	Warning: 	Retry after error -4 (Incorrect length (2243787 Bytes, 2343475 expected)) at link img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S4_31-2.jpg (from codm.zing.vn/tin-tuc/cach-choi.1.html)
+11:36:39	Warning: 	Retry after error -4 (Incorrect length (2244686 Bytes, 2316506 expected)) at link img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S3_31-1.jpg (from codm.zing.vn/tin-tuc/cach-choi.1.html)
+11:36:39	Warning: 	Retry after error -4 (Incorrect length (507256 Bytes, 5401348 expected)) at link img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S2_30-2.jpg (from codm.zing.vn/tin-tuc/cach-choi.1.html)
+11:36:39	Warning: 	Retry after error -4 (Incorrect length (375682 Bytes, 5885185 expected)) at link img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S1_30-1.jpg (from codm.zing.vn/tin-tuc/cach-choi.1.html)
+11:36:39	Warning: 	Retry after error -4 (Incorrect length (920291 Bytes, 1018186 expected)) at link img.zing.vn/products/codm/workshop/dist/assets/images/bg/header-1.jpg (from codm.zing.vn/hoc-vien-codm)
+11:36:39	Warning: 	Retry after error 500 (Internal Server Error) at link codm.zing.vn/hoc-vien-codm/danh-sach-xuong-lap-rap.1.html (from codm.zing.vn/hoc-vien-codm)
+11:36:39	Warning: 	File not added due to mirror cancel: //codm.zing.vn/robots.txt
+11:36:41	Error: 	"Not Found" (404) at link codm.zing.vn/profile-savednews.html (from codm.zing.vn/hoc-vien-codm)
+11:36:41	Error: 	"Not Found" (404) at link codm.zing.vn/profile-savedfactory.html (from codm.zing.vn/hoc-vien-codm)
+11:36:42	Error: 	"Not Found" (404) at link https://codm.zing.vn/Trident/ (from img.zing.vn/products/codm/skin-2019/pc/js/skin-homepage-v7.js)
+11:36:42	Error: 	"Not Found" (404) at link https://codm.zing.vn/Edge/ (from img.zing.vn/products/codm/skin-2019/pc/js/skin-homepage-v7.js)
+11:36:42	Error: 	"Not Found" (404) at link https://codm.zing.vn/Gecko/ (from img.zing.vn/products/codm/skin-2019/pc/js/skin-homepage-v7.js)
+11:36:42	Error: 	"Not Found" (404) at link https://codm.zing.vn/Firefox/ (from img.zing.vn/products/codm/skin-2019/pc/js/skin-homepage-v7.js)
+11:36:42	Error: 	"Not Found" (404) at link https://codm.zing.vn/Version/ (from img.zing.vn/products/codm/skin-2019/pc/js/skin-homepage-v7.js)
+11:36:42	Error: 	"Not Found" (404) at link https://codm.zing.vn/version/ (from img.zing.vn/products/codm/skin-2019/pc/js/skin-homepage-v7.js)
+11:36:45	Warning: 	File not added due to mirror cancel: img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S5_32-1.jpg
+11:36:45	Error: 	"mirror stopped by user" (-1) at link img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S5_32-1.jpg (from codm.zing.vn/tin-tuc/cach-choi.1.html)
+11:36:45	Warning: 	File not added due to mirror cancel: img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S4_31-2.jpg
+11:36:45	Error: 	"mirror stopped by user" (-1) at link img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S4_31-2.jpg (from codm.zing.vn/tin-tuc/cach-choi.1.html)
+11:36:45	Warning: 	File not added due to mirror cancel: img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S3_31-1.jpg
+11:36:45	Error: 	"mirror stopped by user" (-1) at link img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S3_31-1.jpg (from codm.zing.vn/tin-tuc/cach-choi.1.html)
+11:36:45	Warning: 	File not added due to mirror cancel: img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S2_30-2.jpg
+11:36:45	Error: 	"mirror stopped by user" (-1) at link img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S2_30-2.jpg (from codm.zing.vn/tin-tuc/cach-choi.1.html)
+11:36:45	Warning: 	File not added due to mirror cancel: img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S1_30-1.jpg
+11:36:45	Error: 	"mirror stopped by user" (-1) at link img.zing.vn/upload/codm/source/SEASON UPDATE/2025_S1_30-1.jpg (from codm.zing.vn/tin-tuc/cach-choi.1.html)
+11:36:45	Warning: 	File not added due to mirror cancel: img.zing.vn/products/codm/workshop/dist/assets/images/bg/header-1.jpg
+11:36:45	Error: 	"mirror stopped by user" (-1) at link img.zing.vn/products/codm/workshop/dist/assets/images/bg/header-1.jpg (from codm.zing.vn/hoc-vien-codm)
+11:36:45	Warning: 	File not added due to mirror cancel: codm.zing.vn/hoc-vien-codm/danh-sach-xuong-lap-rap.1.html
+11:36:45	Error: 	"mirror stopped by user" (-1) at link codm.zing.vn/hoc-vien-codm/danh-sach-xuong-lap-rap.1.html (from codm.zing.vn/hoc-vien-codm)
+
+HTTrack Website Copier/3.49-2 mirror complete in 16 minutes 53 seconds : 315 links scanned, 278 files written (21267298 bytes overall) [25829220 bytes received at 25497 bytes/sec], 3844290 bytes transferred using HTTP compression in 15 files, ratio 41%, 2.5 requests per connection
+(28 errors, 16 warnings, 0 messages)

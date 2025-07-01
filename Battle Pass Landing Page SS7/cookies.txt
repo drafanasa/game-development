@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+codm.zing.vn	TRUE	/	FALSE	1999999999	PHPSESSID	b3ovdbsnihgqku3sgvp7eotne3
+codm.zing.vn	TRUE	/	FALSE	1999999999	device_view	not_mobile
+codm.zing.vn	TRUE	/	FALSE	1999999999	SERVERID	gameapp13
+codm.zing.vn	TRUE	/	FALSE	1999999999	isCacheProxy	1
+
