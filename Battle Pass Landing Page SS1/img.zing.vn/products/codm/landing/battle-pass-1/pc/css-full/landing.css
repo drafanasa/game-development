@@ -1,0 +1,936 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.wrapper-out .wrapper {
+  display: block;
+  overflow: hidden;
+}
+
+.layout-sprite, .layout-arrow-down, .layout-bt-android-hov, .layout-bt-android-off, .layout-bt-android, .layout-bt-huongdan-hov, .layout-bt-huongdan-off, .layout-bt-huongdan, .layout-bt-ios-hov, .layout-bt-ios-off, .layout-bt-ios, .layout-bt-napthe-hov, .layout-bt-napthe-off, .layout-bt-napthe-top-hov, .layout-bt-napthe-top-off, .layout-bt-napthe-top, .layout-bt-napthe, .layout-bt-play-hov, .layout-bt-play, .layout-btn-trangchu-hov, .layout-btn-trangchu-off, .layout-btn-trangchu, .layout-tab-battle-hov, .layout-tab-battle, .layout-tab-huongdan-hov, .layout-tab-huongdan, .layout-title-frame-2, .box-top .btn-install li a.bt-napthe, .box-top .btn-install li a.bt-napthe:hover, .box-top .btn-install li a.bt-napthe.off, .box-top .btn-install li a.bt-ios, .box-top .btn-install li a.bt-ios:hover, .box-top .btn-install li a.bt-ios.off, .box-top .btn-install li a.bt-android, .box-top .btn-install li a.bt-android:hover, .box-top .btn-install li a.bt-android.off, .landing .bt-down, .landing .list-btn-head li a.bt-napthe, .landing .list-btn-head li a.bt-napthe:hover, .landing .list-btn-head li a.bt-napthe.off, .landing .list-btn-head li a.bt-huongdan, .landing .list-btn-head li a.bt-huongdan:hover, .landing .list-btn-head li a.bt-huongdan.off, .landing .list-btn-head li a.bt-trangchu, .landing .list-btn-head li a.bt-trangchu:hover, .landing .list-btn-head li a.bt-trangchu.off, .landing .content-1 .title, .landing .content-1 .bt-play, .landing .content-1 .bt-play:hover, .landing .content-2 .list-tab li a.tab-1, .landing .content-2 .list-tab li a.tab-1:hover, .landing .content-2 .list-tab li a.tab-1.active, .landing .content-2 .list-tab li a.tab-2, .landing .content-2 .list-tab li a.tab-2:hover, .landing .content-2 .list-tab li a.tab-2.active, .landing .content-cta .list-btn-bottom li a.bt-napthe, .landing .content-cta .list-btn-bottom li a.bt-napthe:hover, .landing .content-cta .list-btn-bottom li a.bt-napthe.off, .landing .content-cta .list-btn-bottom li a.bt-huongdan, .landing .content-cta .list-btn-bottom li a.bt-huongdan:hover, .landing .content-cta .list-btn-bottom li a.bt-huongdan.off, .landing .content-cta .list-btn-bottom li a.bt-trangchu, .landing .content-cta .list-btn-bottom li a.bt-trangchu:hover, .landing .content-cta .list-btn-bottom li a.bt-trangchu.off {
+  background-image: url('../images/layout-s77a5824ed4.png');
+  background-repeat: no-repeat;
+}
+
+.layout-arrow-down {
+  background-position: 0 0;
+  height: 41px;
+  width: 47px;
+}
+
+.layout-bt-android-hov {
+  background-position: 0 -41px;
+  height: 39px;
+  width: 114px;
+}
+
+.layout-bt-android-off {
+  background-position: 0 -80px;
+  height: 39px;
+  width: 114px;
+}
+
+.layout-bt-android {
+  background-position: 0 -119px;
+  height: 39px;
+  width: 114px;
+}
+
+.layout-bt-huongdan-hov {
+  background-position: 0 -158px;
+  height: 71px;
+  width: 209px;
+}
+
+.layout-bt-huongdan-off {
+  background-position: 0 -229px;
+  height: 71px;
+  width: 209px;
+}
+
+.layout-bt-huongdan {
+  background-position: 0 -300px;
+  height: 71px;
+  width: 209px;
+}
+
+.layout-bt-ios-hov {
+  background-position: 0 -371px;
+  height: 39px;
+  width: 114px;
+}
+
+.layout-bt-ios-off {
+  background-position: 0 -410px;
+  height: 39px;
+  width: 114px;
+}
+
+.layout-bt-ios {
+  background-position: 0 -449px;
+  height: 39px;
+  width: 114px;
+}
+
+.layout-bt-napthe-hov {
+  background-position: 0 -488px;
+  height: 71px;
+  width: 209px;
+}
+
+.layout-bt-napthe-off {
+  background-position: 0 -559px;
+  height: 71px;
+  width: 209px;
+}
+
+.layout-bt-napthe-top-hov {
+  background-position: 0 -630px;
+  height: 39px;
+  width: 114px;
+}
+
+.layout-bt-napthe-top-off {
+  background-position: 0 -669px;
+  height: 39px;
+  width: 114px;
+}
+
+.layout-bt-napthe-top {
+  background-position: 0 -708px;
+  height: 39px;
+  width: 114px;
+}
+
+.layout-bt-napthe {
+  background-position: 0 -747px;
+  height: 71px;
+  width: 209px;
+}
+
+.layout-bt-play-hov {
+  background-position: 0 -818px;
+  height: 188px;
+  width: 186px;
+}
+
+.layout-bt-play {
+  background-position: 0 -1006px;
+  height: 188px;
+  width: 186px;
+}
+
+.layout-btn-trangchu-hov {
+  background-position: 0 -1194px;
+  height: 71px;
+  width: 203px;
+}
+
+.layout-btn-trangchu-off {
+  background-position: 0 -1265px;
+  height: 71px;
+  width: 203px;
+}
+
+.layout-btn-trangchu {
+  background-position: 0 -1336px;
+  height: 71px;
+  width: 203px;
+}
+
+.layout-tab-battle-hov {
+  background-position: 0 -1407px;
+  height: 56px;
+  width: 404px;
+}
+
+.layout-tab-battle {
+  background-position: 0 -1463px;
+  height: 56px;
+  width: 404px;
+}
+
+.layout-tab-huongdan-hov {
+  background-position: 0 -1519px;
+  height: 56px;
+  width: 405px;
+}
+
+.layout-tab-huongdan {
+  background-position: 0 -1575px;
+  height: 56px;
+  width: 405px;
+}
+
+.layout-title-frame-2 {
+  background-position: 0 -1631px;
+  height: 179px;
+  width: 1161px;
+}
+
+@font-face {
+  font-family: FontContent;
+  src: url(http://img.zing.vn/products/codm/landing/battle-pass-1/pc/fonts/SairaSemiCondensed-Regular.ttf);
+}
+body {
+  width: 100%;
+  font: 16px/32px FontContent, Tahoma, Arial, Verdana, sans-serif;
+  color: #e9e9e9;
+  background: #000;
+}
+
+strong {
+  font-weight: 700;
+}
+
+#landing {
+  position: relative;
+  width: 2000px;
+  margin: 0 auto;
+  left: 50%;
+  margin-left: -1000px;
+  -webkit-transform-origin: center top;
+  -moz-transform-origin: center top;
+  -ms-transform-origin: center top;
+  transform-origin: center top;
+}
+
+.box-top {
+  width: 2000px;
+  left: 50%;
+  margin-left: -1000px;
+  top: 0;
+  transform-origin: center 0;
+  background: rgba(16, 16, 16, 0.9);
+  border-bottom: 3px solid #ffe500;
+  height: 76px;
+  position: fixed;
+  z-index: 100;
+}
+.box-top .icon-app {
+  width: 276px;
+  height: 101px;
+  background: url(../images/logo.png) 0 0 no-repeat;
+  display: block;
+  text-indent: -9999px;
+  text-decoration: none;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  margin-left: -650px;
+}
+.box-top .btn-install {
+  width: 395px;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  margin-left: 300px;
+}
+.box-top .btn-install li {
+  float: left;
+  margin: 0 7px;
+  width: 114px;
+}
+.box-top .btn-install li a {
+  display: block;
+  text-indent: -9999px;
+  text-decoration: none;
+}
+.box-top .btn-install li a.bt-napthe {
+  background-position: 0 -708px;
+  height: 39px;
+  width: 114px;
+}
+.box-top .btn-install li a.bt-napthe:hover {
+  background-position: 0 -630px;
+  height: 39px;
+  width: 114px;
+}
+.box-top .btn-install li a.bt-napthe.off {
+  background-position: 0 -669px;
+  height: 39px;
+  width: 114px;
+  cursor: not-allowed;
+}
+.box-top .btn-install li a.bt-ios {
+  background-position: 0 -449px;
+  height: 39px;
+  width: 114px;
+}
+.box-top .btn-install li a.bt-ios:hover {
+  background-position: 0 -371px;
+  height: 39px;
+  width: 114px;
+}
+.box-top .btn-install li a.bt-ios.off {
+  background-position: 0 -410px;
+  height: 39px;
+  width: 114px;
+  cursor: not-allowed;
+}
+.box-top .btn-install li a.bt-android {
+  background-position: 0 -119px;
+  height: 39px;
+  width: 114px;
+}
+.box-top .btn-install li a.bt-android:hover {
+  background-position: 0 -41px;
+  height: 39px;
+  width: 114px;
+}
+.box-top .btn-install li a.bt-android.off {
+  background-position: 0 -80px;
+  height: 39px;
+  width: 114px;
+  cursor: not-allowed;
+}
+
+.landing .bt-down {
+  background-position: 0 0;
+  height: 41px;
+  width: 47px;
+  display: block;
+  text-indent: -9999px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -30px;
+  animation: active1 linear 0.2s infinite alternate;
+}
+.landing .page-header {
+  width: 100%;
+  height: 986px;
+  background: url(../images/bg-header.jpg) center 0 no-repeat;
+  position: relative;
+}
+.landing .list-btn-head {
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 80px;
+  text-align: center;
+}
+.landing .list-btn-head li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.landing .list-btn-head li a {
+  display: block;
+  text-indent: -9999px;
+  text-decoration: none;
+}
+.landing .list-btn-head li a.bt-napthe {
+  background-position: 0 -747px;
+  height: 71px;
+  width: 209px;
+}
+.landing .list-btn-head li a.bt-napthe:hover {
+  background-position: 0 -488px;
+  height: 71px;
+  width: 209px;
+}
+.landing .list-btn-head li a.bt-napthe.off {
+  background-position: 0 -559px;
+  height: 71px;
+  width: 209px;
+  cursor: not-allowed;
+}
+.landing .list-btn-head li a.bt-huongdan {
+  background-position: 0 -300px;
+  height: 71px;
+  width: 209px;
+}
+.landing .list-btn-head li a.bt-huongdan:hover {
+  background-position: 0 -158px;
+  height: 71px;
+  width: 209px;
+}
+.landing .list-btn-head li a.bt-huongdan.off {
+  background-position: 0 -229px;
+  height: 71px;
+  width: 209px;
+  cursor: not-allowed;
+}
+.landing .list-btn-head li a.bt-trangchu {
+  background-position: 0 -1336px;
+  height: 71px;
+  width: 203px;
+}
+.landing .list-btn-head li a.bt-trangchu:hover {
+  background-position: 0 -1194px;
+  height: 71px;
+  width: 203px;
+}
+.landing .list-btn-head li a.bt-trangchu.off {
+  background-position: 0 -1265px;
+  height: 71px;
+  width: 203px;
+  cursor: not-allowed;
+}
+.landing .content-1 {
+  width: 100%;
+  height: 1125px;
+  background: url(../images/bg-frame-2.jpg) center top no-repeat;
+  position: relative;
+}
+.landing .content-1:after {
+  content: '';
+  width: 100%;
+  height: 24px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  background: url(../images/border-content-1.png) center 0 no-repeat;
+  display: block;
+}
+.landing .content-1 video {
+  width: 100%;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.landing .content-1 .title {
+  background-position: 0 -1631px;
+  height: 179px;
+  width: 1161px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -580px;
+  z-index: 10;
+}
+.landing .content-1 .title time {
+  color: #e9e9e9;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 120px;
+  display: block;
+}
+.landing .content-1 .bt-play {
+  background-position: 0 -1006px;
+  height: 188px;
+  width: 186px;
+  display: block;
+  text-indent: -9999px;
+  text-decoration: none;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  margin-top: -94px;
+  left: 50%;
+  margin-left: -93px;
+}
+.landing .content-1 .bt-play:hover {
+  background-position: 0 -818px;
+  height: 188px;
+  width: 186px;
+}
+.landing .content-2 {
+  width: 100%;
+  height: 853px;
+  background: url(../images/bg-frame-3.jpg) center top no-repeat;
+  position: relative;
+  padding-top: 120px;
+}
+.landing .content-2 .list-tab {
+  width: 100%;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+.landing .content-2 .list-tab li {
+  display: inline-block;
+  margin: 0;
+}
+.landing .content-2 .list-tab li a {
+  display: block;
+  text-indent: -9999px;
+  text-decoration: none;
+}
+.landing .content-2 .list-tab li a.tab-1 {
+  background-position: 0 -1463px;
+  height: 56px;
+  width: 404px;
+}
+.landing .content-2 .list-tab li a.tab-1:hover, .landing .content-2 .list-tab li a.tab-1.active {
+  background-position: 0 -1407px;
+  height: 56px;
+  width: 404px;
+}
+.landing .content-2 .list-tab li a.tab-2 {
+  background-position: 0 -1575px;
+  height: 56px;
+  width: 405px;
+}
+.landing .content-2 .list-tab li a.tab-2:hover, .landing .content-2 .list-tab li a.tab-2.active {
+  background-position: 0 -1519px;
+  height: 56px;
+  width: 405px;
+}
+.landing .content-2 .battle-content {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.landing .content-2 .battle-content .battle {
+  width: 297px;
+  display: inline-grid;
+  position: relative;
+  margin: 0 25px;
+}
+.landing .content-2 .battle-content .battle h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 50px;
+  font-weight: bold;
+  margin: 0 auto 20px;
+  text-transform: uppercase;
+}
+.landing .content-2 .battle-content .battle img {
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+.landing .content-2 .battle-content .battle .icon-free {
+  background: url(../images/battle/battle-icon-1.png) center top no-repeat;
+  width: 65px;
+  height: 83px;
+  display: block;
+  text-indent: -9999px;
+  text-decoration: none;
+  position: absolute;
+  top: 55px;
+  left: -23px;
+}
+.landing .content-2 .battle-content .battle .icon-pass {
+  background: url(../images/battle/battle-icon-2.png) center top no-repeat;
+  width: 65px;
+  height: 83px;
+  display: block;
+  text-indent: -9999px;
+  text-decoration: none;
+  position: absolute;
+  top: 55px;
+  left: -23px;
+}
+.landing .content-2 .battle-content .battle .icon-pass-plus {
+  background: url(../images/battle/battle-icon-3.png) center top no-repeat;
+  width: 65px;
+  height: 83px;
+  display: block;
+  text-indent: -9999px;
+  text-decoration: none;
+  position: absolute;
+  top: 55px;
+  left: -23px;
+}
+.landing .content-2 .battle-content .battle .intro {
+  background: url(../images/battle/battle-intro.png) center top no-repeat;
+  width: 100%;
+  height: 165px;
+}
+.landing .content-2 .battle-content .battle .intro p {
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  line-height: 24px;
+  color: #e9e9e9;
+  text-align: center;
+}
+.landing .content-2 .battle-content .battle .intro strong {
+  color: #fff;
+}
+.landing .content-2 .battle-content .battle .price {
+  background: url(../images/battle/battle-price.png) center top no-repeat;
+  width: 100%;
+  height: 122px;
+  text-align: center;
+}
+.landing .content-2 .battle-content .battle .price .color-1 {
+  color: #e9e9e9;
+  font-size: 1.5rem;
+  padding: 5px 0 0px;
+}
+.landing .content-2 .battle-content .battle .price .color-1 span {
+  font-size: 1.2rem;
+}
+.landing .content-2 .battle-content .battle .price .color-2 {
+  padding: 0 0 30px;
+  font-size: 2.4rem;
+  line-height: 40px;
+  color: #ffe500;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.landing .content-2 .battle-content .battle .price .padding-1 {
+  padding-top: 25px;
+}
+.landing .content-2 .huongdan-content {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 60px 0 0 0;
+  overflow: hidden;
+}
+.landing .content-2 .huongdan-content img {
+  float: right;
+  margin: 0;
+  display: block;
+}
+.landing .content-2 .huongdan-content .huongdan-info {
+  width: 560px;
+  float: left;
+}
+.landing .content-2 .huongdan-content .title {
+  width: 100%;
+  color: #e9e9e9;
+  font-size: 1.5rem;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0 0 45px;
+}
+.landing .content-2 .huongdan-content .list-huongdan {
+  width: 100%;
+  margin: 0;
+}
+.landing .content-2 .huongdan-content .list-huongdan li {
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: hidden;
+}
+.landing .content-2 .huongdan-content .list-huongdan li .text-number {
+  width: 60px;
+  color: #fee400;
+  font-size: 2.9rem;
+  line-height: 50px;
+  font-weight: bold;
+  border-right: 3px solid #fff;
+  float: left;
+}
+.landing .content-2 .huongdan-content .list-huongdan li .text-huongdan {
+  width: 480px;
+  float: right;
+  font-size: 1.2rem;
+  line-height: 26px;
+  color: #e9e9e9;
+}
+.landing .content-2 .tab__detail {
+  display: none;
+}
+.landing .content-3 {
+  width: 100%;
+}
+.landing .content-3 .addition-1 {
+  width: 100%;
+  height: 436px;
+  background: url(../images/addition/addition-1.jpg) center top no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+.landing .content-3 .addition-2 {
+  width: 100%;
+  height: 475px;
+  background: url(../images/addition/addition-2.jpg) center top no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+.landing .content-3 .addition-3 {
+  width: 100%;
+  height: 470px;
+  background: url(../images/addition/addition-3.jpg) center top no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+.landing .content-3 .addition-4 {
+  width: 100%;
+  height: 439px;
+  background: url(../images/addition/addition-4.jpg) center top no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+.landing .content-3 .info-add {
+  width: 640px;
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  margin-left: -600px;
+}
+.landing .content-3 .addition-2 .info-add {
+  width: 680px;
+}
+.landing .content-3 h2 {
+  background: url(../images/addition/icon-h2.png) left 2px no-repeat;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 10px #8f7c0f, -2px -2px 10px #8f7c0f;
+  padding: 0 0 20px 30px;
+}
+.landing .content-3 .intro {
+  color: #e9e9e9;
+  font-size: 1.56rem;
+  line-height: 35px;
+  padding: 0 0 0 30px;
+}
+.landing .content-cta {
+  width: 100%;
+  height: 452px;
+  background: url(../images/bg-cta.jpg) center top no-repeat;
+  position: relative;
+}
+.landing .content-cta .list-btn-bottom {
+  width: 500px;
+  position: absolute;
+  z-index: 12;
+  margin: 0 auto;
+  left: 50%;
+  bottom: 45px;
+  margin-left: -150px;
+  text-align: center;
+}
+.landing .content-cta .list-btn-bottom li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.landing .content-cta .list-btn-bottom li a {
+  display: block;
+  text-indent: -9999px;
+  text-decoration: none;
+}
+.landing .content-cta .list-btn-bottom li a.bt-napthe {
+  background-position: 0 -747px;
+  height: 71px;
+  width: 209px;
+}
+.landing .content-cta .list-btn-bottom li a.bt-napthe:hover {
+  background-position: 0 -488px;
+  height: 71px;
+  width: 209px;
+}
+.landing .content-cta .list-btn-bottom li a.bt-napthe.off {
+  background-position: 0 -559px;
+  height: 71px;
+  width: 209px;
+  cursor: not-allowed;
+}
+.landing .content-cta .list-btn-bottom li a.bt-huongdan {
+  background-position: 0 -300px;
+  height: 71px;
+  width: 209px;
+}
+.landing .content-cta .list-btn-bottom li a.bt-huongdan:hover {
+  background-position: 0 -158px;
+  height: 71px;
+  width: 209px;
+}
+.landing .content-cta .list-btn-bottom li a.bt-huongdan.off {
+  background-position: 0 -229px;
+  height: 71px;
+  width: 209px;
+  cursor: not-allowed;
+}
+.landing .content-cta .list-btn-bottom li a.bt-trangchu {
+  background-position: 0 -1336px;
+  height: 71px;
+  width: 203px;
+}
+.landing .content-cta .list-btn-bottom li a.bt-trangchu:hover {
+  background-position: 0 -1194px;
+  height: 71px;
+  width: 203px;
+}
+.landing .content-cta .list-btn-bottom li a.bt-trangchu.off {
+  background-position: 0 -1265px;
+  height: 71px;
+  width: 203px;
+  cursor: not-allowed;
+}
+
+footer {
+  width: 100%;
+  background: #0b0c0f;
+  padding: 60px 0;
+  text-align: center;
+  color: #656565;
+  font-size: 1.15rem;
+}
+footer .footer-content {
+  width: 1200px;
+  margin: 0 auto;
+}
+footer .footer-content .group-logo {
+  width: 430px;
+  margin: 0 auto 15px;
+  float: left;
+}
+
+/* main navigation */
+#main-nav {
+  position: absolute;
+  top: 0;
+  width: 580px;
+  height: 75px;
+  z-index: 11;
+  left: 50%;
+  margin-left: -320px;
+}
+#main-nav .main-nav--inner {
+  height: 100%;
+  position: relative;
+}
+#main-nav .main-nav--inner #main-nav__list {
+  width: 100%;
+  height: 75px;
+}
+#main-nav .main-nav--inner #main-nav__list > li {
+  position: relative;
+  float: left;
+}
+#main-nav .main-nav--inner #main-nav__list > li a {
+  height: 75px;
+  line-height: 75px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 0 25px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+#main-nav .main-nav--inner #main-nav__list > li a > .fa-chevron-down {
+  display: none;
+}
+#main-nav .main-nav--inner #main-nav__list > li a.main-nav__has-sub .fa-chevron-down {
+  width: 16px;
+  height: 8px;
+  position: absolute;
+  background: url(../images/nav-arrow.png) no-repeat;
+  bottom: 8px;
+  left: 47%;
+  display: block;
+}
+#main-nav .main-nav--inner #main-nav__list > li a:hover:not(.off), #main-nav .main-nav--inner #main-nav__list > li a.active {
+  background: #000;
+  box-sizing: border-box;
+  color: #ffe500;
+  text-shadow: 3px 3px 10px #8f7c0f, -3px -3px 10px #8f7c0f;
+}
+#main-nav .main-nav--inner #main-nav__list > li > a.focus ~ ul {
+  display: block;
+}
+#main-nav .main-nav--inner #main-nav__list > li > ul {
+  display: none;
+  width: 250px;
+  position: absolute;
+  top: 79px;
+  left: 0;
+  background: #000;
+  padding: 0;
+}
+#main-nav .main-nav--inner #main-nav__list > li > ul > li {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #6f6009;
+}
+#main-nav .main-nav--inner #main-nav__list > li > ul > li > a {
+  width: 210px;
+  padding: 0 20px;
+  line-height: 60px;
+  height: 60px;
+  color: #e5e5e5;
+  background: #222;
+}
+#main-nav .main-nav--inner #main-nav__list > li > ul > li > a:hover:not(.off), #main-nav .main-nav--inner #main-nav__list > li > ul > li > a.active:not(.off) {
+  color: #fff;
+  background: #000;
+}
+#main-nav .main-nav--inner #main-nav__list > li > ul > li > a.off {
+  color: #666;
+  cursor: not-allowed;
+}
+
+/* end of main navigation */
+@-moz-keyframes active1 {
+  from {
+    bottom: 20px;
+  }
+  to {
+    bottom: 30px;
+  }
+}
+@-webkit-keyframes active1 {
+  from {
+    bottom: 20px;
+  }
+  to {
+    bottom: 30px;
+  }
+}
+@keyframes active1 {
+  from {
+    bottom: 20px;
+  }
+  to {
+    bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=landing.css.map */

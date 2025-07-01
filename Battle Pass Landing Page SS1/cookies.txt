@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+codm.360mobi.vn	TRUE	/	FALSE	1999999999	PHPSESSID	36rrp4v6uttt4td37bs0brscv2
+codm.360mobi.vn	TRUE	/	FALSE	1999999999	device_view	not_mobile
+codm.360mobi.vn	TRUE	/	FALSE	1999999999	SERVERID	gameapp54
+
